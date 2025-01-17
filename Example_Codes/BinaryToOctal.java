@@ -7,7 +7,7 @@ public class BinaryToOctal {
 
         System.out.print("Enter Binary number : ");
         num = br.readLine();
-        int dec = Interger.parseInt(num,2);
+        int dec = Integer.parseInt(num,2);
 
         String oct = Integer.toOctalString(dec);
 

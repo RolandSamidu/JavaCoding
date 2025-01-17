@@ -7,6 +7,7 @@ class MultiplicationTable {
         int n, c;
         System.out.println("Enter an integer to print it's multiplication table");
 
+        @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
         n = in.nextInt();
         System.out.println("Multiplication table of " + n + " is :-");

@@ -5,6 +5,7 @@ public class AreaOfSquare {
     {
         int side, area;
 
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter value of the sides of square : ");
