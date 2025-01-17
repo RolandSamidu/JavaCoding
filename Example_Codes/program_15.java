@@ -3,6 +3,7 @@ import java.util.*;
 class FractionSubtraction {
     public static void main(String args[]) {
         float a, b, c, d;
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a : ");
         a = scanner.nextFloat();

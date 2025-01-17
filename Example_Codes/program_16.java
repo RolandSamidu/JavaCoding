@@ -7,6 +7,7 @@ class HarmonicSeries {
         int num, i = 1;
         double rst = 0.0;
 
+        @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the number for length of series");
         num = in.nextInt();

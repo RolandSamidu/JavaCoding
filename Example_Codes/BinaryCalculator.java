@@ -2,6 +2,7 @@ import java.util.*;
 
 public class BinaryCalculator {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
 
         System.out.print("First Binary : ");

@@ -13,6 +13,7 @@ public class AreaCalculator {
     }
 
     public void options() {
+        @SuppressWarnings("resource")
         Scanner a = new Scanner(System.in);
         System.out.println(
                 "Enter the Object of which Area is to be calculated \n1:Square \n2:Rectangle \n3:Triangle \n4:Circle \n5:Trapezoid \n6:Exit");

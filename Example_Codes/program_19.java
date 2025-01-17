@@ -8,6 +8,7 @@ class ChristmasTree {
 
     public static void makeTree() {
         int maxStars = 2 * height + 2 * segments - 3;
+        @SuppressWarnings("unused")
         String maxStr = "";
         for (int l = 0; l < maxStars; l++) {
             maxStr += " ";

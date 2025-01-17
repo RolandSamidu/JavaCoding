@@ -4,6 +4,7 @@ public class CalculateInterest {
     public static void main(String[] args) {
         double p, n, r, si, ci;
 
+        @SuppressWarnings("resource")
         Scanner s = new Scanner(System.in);
 
         System.out.print("Enter the amount : ");
