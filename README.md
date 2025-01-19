@@ -16,10 +16,22 @@ EEEEE
 11 12 13 14 15 
 
 
-23. Number pattern 1.
+23. Number pattern 2.
 
 1
 12
 123
 1234
 12345
+
+24. Number pattern 3.
+
+1
+12
+123
+1234
+12345
+1234
+123
+12
+1
