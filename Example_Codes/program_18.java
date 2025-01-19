@@ -2,10 +2,10 @@ class BinaryPattern {
     public static void main(String s[]) {
         int i, j;
         int count = 1;
-        for (i = 1; i <= 5; i++) {
+        for (i = 1; i <= 10; i++) {
             for (j = 1; j <= i; j++) {
                 System.out.format("%d", count++ % 2);
-                if (j == i && i != 5)
+                if (j == i && i != 10)
                     System.out.println("");
             }
 
