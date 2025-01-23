@@ -51,12 +51,14 @@ public class EmployeeManagement {
         scanner.nextLine();
         System.out.print("Enter Employee Name: ");
         String name = scanner.nextLine();
+        System.out.print("Enter Employee Position: ");
+        String position = scanner.nextLine();
         System.out.print("Enter Attendance: ");
         int attendance = scanner.nextInt();
         System.out.print("Enter Daily Salary: ");
         double dailySalary = scanner.nextDouble();
 
-        employeeList.add(new Employee(number, name, attendance, dailySalary));
+        employeeList.add(new Employee(number, name, position, attendance, dailySalary));
         System.out.println("Employee added successfully.");
     }
 
