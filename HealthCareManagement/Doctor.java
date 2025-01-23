@@ -31,9 +31,9 @@ class Doctor {
         return specialization;
     }
 
-    public void setSpecialization(String specialization) {
-        this.specialization = specialization;
-    }
+    // public void setSpecialization(String specialization) {
+    //     this.specialization = specialization;
+    // }
 
     public String getScheduleDate() {
         return scheduleDate;
