@@ -97,6 +97,10 @@ public class EmployeeManagement {
                 int newAttendance = scanner.nextInt();
                 emp.setAttendance(newAttendance);
 
+                System.out.print("Enter new position (current: " + emp.getEmployeePosition() + "): ");
+                String newPosition = scanner.nextLine();
+                emp.setEmployeePosition(newPosition);
+
                 System.out.println("Employee updated successfully.");
                 return;
             }
