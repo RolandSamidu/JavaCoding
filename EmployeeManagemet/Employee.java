@@ -3,6 +3,7 @@ package EmployeeManagemet;
 class Employee {
     private int employeeNumber;
     private String employeeName;
+    private String employeePosition;
     private int attendance; // Number of days present
     private double dailySalary;
 
@@ -21,6 +22,10 @@ class Employee {
         return employeeName;
     }
 
+    public String getEmployeePosition(){
+        return employeePosition;
+    }
+
     public void setEmployeeName(String employeeName) {
         this.employeeName = employeeName;
     }
@@ -33,12 +38,16 @@ class Employee {
         this.attendance = attendance;
     }
 
+    public void setEmployeePosition(String employeePosition){
+        this.employeePosition = employeePosition;
+    }
+
     public double calculateSalary() {
         return attendance * dailySalary;
     }
 
     @Override
     public String toString() {
-        return "EmployeeNumber: " + employeeNumber + ", Name: " + employeeName + ", Attendance: " + attendance + ", Daily Salary: " + dailySalary;
+        return "EmployeeNumber: " + employeeNumber + ", Name: " + employeeName + ", EmployeePosition: " + employeePosition + ", Attendance: " + attendance + ", Daily Salary: " + dailySalary;
     }
 }
