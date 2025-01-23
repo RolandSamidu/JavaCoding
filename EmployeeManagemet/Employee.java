@@ -7,9 +7,10 @@ class Employee {
     private int attendance; // Number of days present
     private double dailySalary;
 
-    public Employee(int employeeNumber, String employeeName, int attendance, double dailySalary) {
+    public Employee(int employeeNumber, String employeeName, String employeePosition, int attendance, double dailySalary) {
         this.employeeNumber = employeeNumber;
         this.employeeName = employeeName;
+        this.employeePosition = employeePosition;
         this.attendance = attendance;
         this.dailySalary = dailySalary;
     }
