@@ -23,6 +23,14 @@ class Doctor {
         return doctorName;
     }
 
+    public void setDoctorNumber(int doctorNumber) {
+        this.doctorNumber = doctorNumber;
+    }
+
+    public void setSpecialization(String specialization) {
+        this.specialization = specialization;
+    }
+
     public void setDoctorName(String doctorName) {
         this.doctorName = doctorName;
     }

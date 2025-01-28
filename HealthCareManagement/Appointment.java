@@ -1,24 +1,24 @@
 package HealthCareManagement;
 
 class Appointment {
-    private int appoinmeentNumber;
+    private int appoinmentNumber;
     private String patientName;
     private String telephoneNumer;
     private String dateTime;
 
-    public Appointment(int appoinmeentNumber, String patientName, String telephoneNumber, String dateTime) {
-        this.appoinmeentNumber = appoinmeentNumber;
+    public Appointment(int appoinmentNumber, String patientName, String telephoneNumber, String dateTime) {
+        this.appoinmentNumber = appoinmentNumber;
         this.patientName = patientName;
         this.telephoneNumer = telephoneNumber;
         this.dateTime = dateTime;
     }
 
-    public int getAppoinmeentNumber() {
-        return appoinmeentNumber;
+    public int getAppoinmentNumber() {
+        return appoinmentNumber;
     }
 
-    public void setAppoinmeentNumber(int appoinmeentNumber) {
-        this.appoinmeentNumber = appoinmeentNumber;
+    public void setAppoinmentNumber(int appoinmentNumber) {
+        this.appoinmentNumber = appoinmentNumber;
     }
 
     public String getPatientName() {
@@ -46,7 +46,7 @@ class Appointment {
     }
 
     public String toString(){
-        return "NO : "+ appoinmeentNumber +"\n patientName : "+ patientName +"\n telephone Number : "+ telephoneNumer +"\n DateTime : "+  dateTime +"\n ";
+        return "NO : "+ appoinmentNumber +"\n patientName : "+ patientName +"\n telephone Number : "+ telephoneNumer +"\n DateTime : "+  dateTime +"\n ";
     }
 
 }
